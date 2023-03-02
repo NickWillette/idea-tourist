@@ -25,6 +25,7 @@ const config = {
         fixStyle: "inline-type-imports",
       },
     ],
+    'import/no-unresolved': ['error', { commonjs: true, caseSensitive: true }],
   },
 };
 
